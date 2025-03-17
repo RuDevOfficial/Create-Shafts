@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "create_shafts:diorite_alloy"
+    }
+  },
+  "pattern": [
+    "X",
+    "X"
+  ],
+  "result": {
+    "item": "create_shafts:diorite_shaft",
+    "count": 8
+  },
+  "show_notification": false
+}

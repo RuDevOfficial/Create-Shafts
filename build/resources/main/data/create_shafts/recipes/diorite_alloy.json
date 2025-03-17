@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "create:zinc_nugget"
+    },
+    "O": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "pattern": [
+    "XO",
+    "OX"
+  ],
+  "result": {
+    "item": "create_shafts:diorite_alloy",
+    "count": 1
+  },
+  "show_notification": false
+}

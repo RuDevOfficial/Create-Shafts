@@ -1,0 +1,16 @@
+﻿{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "tag": "forge:nuggets/iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_shafts:diorite_alloy"
+    }
+  ]
+}

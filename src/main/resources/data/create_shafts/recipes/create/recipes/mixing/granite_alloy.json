@@ -1,0 +1,16 @@
+﻿{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:granite"
+    },
+    {
+      "tag": "forge:nuggets/iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_shafts:granite_alloy"
+    }
+  ]
+}
