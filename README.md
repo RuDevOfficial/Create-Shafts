@@ -1,5 +1,5 @@
 
-![Logo](https://i.imgur.com/oc53tcF.png)
+![Logo](https://i.imgur.com/gzoY8ZO.png)
 
 # Create Shafts
 
