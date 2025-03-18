@@ -12,6 +12,7 @@ Todo
 # About
 
 Create Shafts is a simple mod that adds both Granite and Diorite alloys, enabling you to create shafts of that variety!
+The crafting and mixing recipies are the same as the Andesite Alloy.
 
 # Content
 ![Creative Tab](https://i.imgur.com/O4tzyOs.png)
