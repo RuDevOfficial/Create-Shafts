@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/create-shafts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/create-shafts.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/create-shafts.test.iml" filepath="$PROJECT_DIR$/.idea/modules/create-shafts.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/github.rudevofficial.create-shafts.test.iml" filepath="$PROJECT_DIR$/.idea/modules/github.rudevofficial.create-shafts.test.iml" />
     </modules>
   </component>
 </project>

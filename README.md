@@ -1,4 +1,6 @@
 
+![Logo](https://i.imgur.com/oc53tcF.png)
+
 # Create Shafts
 
 Addon to the create mod by RuDevOfficial.
