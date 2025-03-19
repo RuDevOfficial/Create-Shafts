@@ -1,183 +1,177 @@
-[19mar2025 19:48:17.193] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Ruben\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, create_shafts.mixins.json]
-[19mar2025 19:48:17.204] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[19mar2025 19:48:17.384] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[19mar2025 19:48:17.498] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[19mar2025 19:48:17.740] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[19mar2025 19:48:17.825] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Ruben/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[19mar2025 19:48:17.880] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 2060/PCIe/SSE2 GL version 4.6.0 NVIDIA 560.94, NVIDIA Corporation
-[19mar2025 19:48:18.327] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[19mar2025 19:48:18.333] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[19mar2025 19:48:18.338] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[19mar2025 19:48:18.343] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[19mar2025 19:48:18.608] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[19mar2025 19:48:20.900] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[19mar2025 19:48:20.913] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Ruben\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[19mar2025 19:48:21.025] [main/WARN] [mixin/]: Reference map 'create_shafts.refmap.json' for create_shafts.mixins.json could not be read. If this is a development environment you can ignore this message
-[19mar2025 19:48:21.526] [main/INFO] [mixin/]: Remapping refMap backend-flywheel.refmap.json using D:\DESARROLLO DE VIDEOJUEGOS\MINECRAFT MODDING\Create-Shafts\build\createSrgToMcp\output.srg
-[19mar2025 19:48:21.527] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using D:\DESARROLLO DE VIDEOJUEGOS\MINECRAFT MODDING\Create-Shafts\build\createSrgToMcp\output.srg
-[19mar2025 19:48:21.528] [main/INFO] [mixin/]: Remapping refMap ponder.refmap.json using D:\DESARROLLO DE VIDEOJUEGOS\MINECRAFT MODDING\Create-Shafts\build\createSrgToMcp\output.srg
-[19mar2025 19:48:21.531] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using D:\DESARROLLO DE VIDEOJUEGOS\MINECRAFT MODDING\Create-Shafts\build\createSrgToMcp\output.srg
-[19mar2025 19:48:22.054] [main/WARN] [mixin/]: Error loading class: journeymap/client/ui/fullscreen/Fullscreen (java.lang.ClassNotFoundException: journeymap.client.ui.fullscreen.Fullscreen)
-[19mar2025 19:48:22.055] [main/WARN] [mixin/]: @Mixin target journeymap.client.ui.fullscreen.Fullscreen was not found create.mixins.json:compat.JourneyFullscreenMapMixin
-[19mar2025 19:48:22.136] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19mar2025 19:48:30.268] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 213 milliseconds
-[19mar2025 19:48:32.638] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Ruben/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[19mar2025 19:48:32.638] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Ruben/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[19mar2025 19:48:32.658] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19mar2025 19:48:32.664] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[19mar2025 19:48:32.782] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[19mar2025 19:48:33.131] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.3 initializing! Commit hash: a4a3d64c8fab6aad38158fb5e92066a95cd6e4af
-[19mar2025 19:48:33.153] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[19mar2025 19:48:33.153] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[19mar2025 19:48:33.495] [modloading-worker-0/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: REGISTERED THE MODELS
-[19mar2025 19:48:37.864] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [create_shafts]
-[19mar2025 19:48:38.203] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[19mar2025 19:48:38.298] [Worker-Main-5/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: HELLO FROM COMMON SETUP
-[19mar2025 19:48:38.298] [Worker-Main-5/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: DIRT BLOCK >> minecraft:dirt
-[19mar2025 19:48:38.298] [Worker-Main-5/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: DIRT BLOCK >> minecraft:dirt
-[19mar2025 19:48:38.298] [Worker-Main-5/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: The magic number is... 42
-[19mar2025 19:48:38.299] [Worker-Main-5/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: ITEM >> iron_ingot
-[19mar2025 19:48:38.357] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[19mar2025 19:48:38.392] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19mar2025 19:48:38.958] [Worker-Main-5/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: HELLO FROM CLIENT SETUP
-[19mar2025 19:48:38.958] [Worker-Main-5/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: MINECRAFT NAME >> Dev
-[19mar2025 19:48:39.063] [Worker-Main-9/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture create_shafts:block/granite_axis with size 4x16 limits mip level from 4 to 2
-[19mar2025 19:48:39.255] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[19mar2025 19:48:40.813] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'create_shafts:blockstates/granite_shaft.json' missing model for variant: 'create_shafts:granite_shaft#axis=x,waterlogged=false'
-[19mar2025 19:48:40.813] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'create_shafts:blockstates/granite_shaft.json' missing model for variant: 'create_shafts:granite_shaft#axis=x,waterlogged=true'
-[19mar2025 19:48:40.813] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'create_shafts:blockstates/granite_shaft.json' missing model for variant: 'create_shafts:granite_shaft#axis=z,waterlogged=false'
-[19mar2025 19:48:40.813] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'create_shafts:blockstates/granite_shaft.json' missing model for variant: 'create_shafts:granite_shaft#axis=y,waterlogged=false'
-[19mar2025 19:48:40.813] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'create_shafts:blockstates/granite_shaft.json' missing model for variant: 'create_shafts:granite_shaft#axis=z,waterlogged=true'
-[19mar2025 19:48:40.813] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'create_shafts:blockstates/granite_shaft.json' missing model for variant: 'create_shafts:granite_shaft#axis=y,waterlogged=true'
-[19mar2025 19:48:40.813] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'create_shafts:blockstates/diorite_shaft.json' missing model for variant: 'create_shafts:diorite_shaft#axis=y,waterlogged=false'
-[19mar2025 19:48:40.813] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'create_shafts:blockstates/diorite_shaft.json' missing model for variant: 'create_shafts:diorite_shaft#axis=z,waterlogged=true'
-[19mar2025 19:48:40.814] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'create_shafts:blockstates/diorite_shaft.json' missing model for variant: 'create_shafts:diorite_shaft#axis=z,waterlogged=false'
-[19mar2025 19:48:40.814] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'create_shafts:blockstates/diorite_shaft.json' missing model for variant: 'create_shafts:diorite_shaft#axis=x,waterlogged=true'
-[19mar2025 19:48:40.814] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'create_shafts:blockstates/diorite_shaft.json' missing model for variant: 'create_shafts:diorite_shaft#axis=x,waterlogged=false'
-[19mar2025 19:48:40.814] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'create_shafts:blockstates/diorite_shaft.json' missing model for variant: 'create_shafts:diorite_shaft#axis=y,waterlogged=true'
-[19mar2025 19:48:42.481] [Worker-Main-1/INFO] [PonderIndex/]: Registering Ponder Scenes took 123.4 ms
-[19mar2025 19:48:42.487] [Worker-Main-1/INFO] [PonderIndex/]: Registering Ponder Tags took 5.159 ms
-[19mar2025 19:48:45.835] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[19mar2025 19:48:45.836] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[19mar2025 19:48:46.974] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Audífono de los auriculares con micrófono (CORSAIR HS80 MAX WIRELESS Gaming Headset)
-[19mar2025 19:48:46.975] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[19mar2025 19:48:47.085] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[19mar2025 19:48:47.100] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[19mar2025 19:48:47.105] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[19mar2025 19:48:47.105] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[19mar2025 19:48:47.106] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[19mar2025 19:48:47.111] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[19mar2025 19:48:47.117] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[19mar2025 19:48:47.117] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[19mar2025 19:48:47.117] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19mar2025 19:48:47.247] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[19mar2025 19:48:47.303] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[19mar2025 19:48:47.305] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19mar2025 19:48:47.306] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[19mar2025 19:48:47.346] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 32,105 ms
-[19mar2025 19:48:47.385] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 51 train hat configurations.
-[19mar2025 19:48:47.553] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[19mar2025 19:50:39.908] [Render thread/INFO] [com.simibubi.create.Create/]: Created 141 recipes which will be injected into the game
-[19mar2025 19:50:39.918] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
-[19mar2025 19:50:39.957] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[19mar2025 19:50:42.721] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
-[19mar2025 19:50:42.816] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2389 advancements
-[19mar2025 19:50:44.381] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[19mar2025 19:50:44.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[19mar2025 19:50:46.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[19mar2025 19:50:48.361] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19mar2025 19:50:48.361] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19mar2025 19:50:48.382] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19mar2025 19:50:48.382] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19mar2025 19:50:48.382] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19mar2025 19:50:48.536] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19mar2025 19:50:49.034] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19mar2025 19:50:49.539] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[19mar2025 19:50:50.012] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[19mar2025 19:50:50.012] [Server thread/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: HELLO from server starting
-[19mar2025 19:50:50.016] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3984 ms
-[19mar2025 19:50:50.239] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[19mar2025 19:50:50.242] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[19mar2025 19:50:50.367] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[19mar2025 19:50:50.373] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=141, y=64, z=417} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.381] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=127, y=64, z=408} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.381] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=123, y=64, z=407} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.381] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=121, y=64, z=407} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.381] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=122, y=64, z=407} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.381] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=127, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.382] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=135, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.382] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=135, y=64, z=412} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.383] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=136, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.383] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=133, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.383] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=132, y=64, z=412} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.383] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=134, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.383] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=135, y=64, z=410} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.383] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=133, y=64, z=409} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.383] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=131, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.383] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=132, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.383] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=130, y=64, z=410} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.383] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=131, y=64, z=409} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.384] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=131, y=64, z=410} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.384] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=128, y=64, z=408} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.384] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=128, y=64, z=409} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.384] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=144, y=64, z=407} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.384] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=145, y=64, z=406} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.384] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=147, y=64, z=406} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:50.752] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[19mar2025 19:50:50.801] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:077ad985] logged in with entity id 124 at (141.79659312885906, 64.0, 418.4857062414696)
-[19mar2025 19:50:50.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[19mar2025 19:50:51.408] [Render thread/INFO] [flywheel/]: Started 6 worker threads
-[19mar2025 19:50:51.957] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 9 advancements
-[19mar2025 19:50:52.170] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=127, y=64, z=408} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.170] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=123, y=64, z=407} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.170] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=121, y=64, z=407} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.170] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=122, y=64, z=407} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.170] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=127, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.171] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=135, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.171] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=135, y=64, z=412} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.171] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=136, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.171] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=133, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.171] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=132, y=64, z=412} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.171] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=134, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.171] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=135, y=64, z=410} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.173] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=133, y=64, z=409} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.173] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=131, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.173] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=132, y=64, z=411} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.173] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=130, y=64, z=410} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.173] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=131, y=64, z=409} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.173] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=131, y=64, z=410} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.173] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=128, y=64, z=408} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.173] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=128, y=64, z=409} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.173] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=141, y=64, z=417} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.174] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=144, y=64, z=407} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.174] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=145, y=64, z=406} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.174] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=147, y=64, z=406} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:50:52.935] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19mar2025 19:50:52.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19mar2025 19:50:54.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19mar2025 19:50:54.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19mar2025 19:51:06.021] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=139, y=64, z=416} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:51:06.077] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=139, y=64, z=416} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
-[19mar2025 19:51:10.263] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19mar2025 19:51:10.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19mar2025 19:51:10.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19mar2025 19:51:10.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19mar2025 20:04:04.199] [IO-Worker-15/INFO] [net.minecraft.client.sounds.SoundEngine/]: System default audio device has changed!
-[19mar2025 20:04:04.247] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[19mar2025 20:04:04.247] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[19mar2025 20:04:04.328] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek(R) Audio)
-[19mar2025 20:04:04.329] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[19mar2025 20:09:17.127] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[19mar2025 20:09:17.172] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[19mar2025 20:09:17.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[19mar2025 20:09:17.183] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[19mar2025 20:09:17.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[19mar2025 20:09:17.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[19mar2025 20:09:17.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[19mar2025 20:09:17.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19mar2025 20:09:20.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19mar2025 20:09:20.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19mar2025 20:09:20.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[19mar2025 20:09:20.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19mar2025 20:09:20.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19mar2025 20:09:20.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20mar2025 00:12:14.296] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Ruben\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, create_shafts.mixins.json]
+[20mar2025 00:12:14.300] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[20mar2025 00:12:14.420] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[20mar2025 00:12:14.523] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[20mar2025 00:12:14.773] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[20mar2025 00:12:14.854] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Ruben/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[20mar2025 00:12:14.923] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 2060/PCIe/SSE2 GL version 4.6.0 NVIDIA 560.94, NVIDIA Corporation
+[20mar2025 00:12:15.290] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[20mar2025 00:12:15.296] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[20mar2025 00:12:15.303] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[20mar2025 00:12:15.309] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[20mar2025 00:12:15.561] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[20mar2025 00:12:17.137] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20mar2025 00:12:17.146] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Ruben\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[20mar2025 00:12:17.223] [main/WARN] [mixin/]: Reference map 'create_shafts.refmap.json' for create_shafts.mixins.json could not be read. If this is a development environment you can ignore this message
+[20mar2025 00:12:17.754] [main/INFO] [mixin/]: Remapping refMap backend-flywheel.refmap.json using D:\DESARROLLO DE VIDEOJUEGOS\MINECRAFT MODDING\Create-Shafts\build\createSrgToMcp\output.srg
+[20mar2025 00:12:17.758] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using D:\DESARROLLO DE VIDEOJUEGOS\MINECRAFT MODDING\Create-Shafts\build\createSrgToMcp\output.srg
+[20mar2025 00:12:17.760] [main/INFO] [mixin/]: Remapping refMap ponder.refmap.json using D:\DESARROLLO DE VIDEOJUEGOS\MINECRAFT MODDING\Create-Shafts\build\createSrgToMcp\output.srg
+[20mar2025 00:12:17.765] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using D:\DESARROLLO DE VIDEOJUEGOS\MINECRAFT MODDING\Create-Shafts\build\createSrgToMcp\output.srg
+[20mar2025 00:12:18.320] [main/WARN] [mixin/]: Error loading class: journeymap/client/ui/fullscreen/Fullscreen (java.lang.ClassNotFoundException: journeymap.client.ui.fullscreen.Fullscreen)
+[20mar2025 00:12:18.320] [main/WARN] [mixin/]: @Mixin target journeymap.client.ui.fullscreen.Fullscreen was not found create.mixins.json:compat.JourneyFullscreenMapMixin
+[20mar2025 00:12:18.370] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20mar2025 00:12:23.171] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 196 milliseconds
+[20mar2025 00:12:25.282] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Ruben/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[20mar2025 00:12:25.283] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Ruben/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[20mar2025 00:12:25.301] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20mar2025 00:12:25.320] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[20mar2025 00:12:25.546] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[20mar2025 00:12:25.901] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.3 initializing! Commit hash: a4a3d64c8fab6aad38158fb5e92066a95cd6e4af
+[20mar2025 00:12:25.921] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[20mar2025 00:12:25.921] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[20mar2025 00:12:26.209] [modloading-worker-0/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: REGISTERED THE MODELS
+[20mar2025 00:12:30.714] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [create_shafts]
+[20mar2025 00:12:31.186] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[20mar2025 00:12:31.295] [Worker-Main-11/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: HELLO FROM COMMON SETUP
+[20mar2025 00:12:31.295] [Worker-Main-11/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: DIRT BLOCK >> minecraft:dirt
+[20mar2025 00:12:31.296] [Worker-Main-11/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: DIRT BLOCK >> minecraft:dirt
+[20mar2025 00:12:31.296] [Worker-Main-11/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: The magic number is... 42
+[20mar2025 00:12:31.297] [Worker-Main-11/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: ITEM >> iron_ingot
+[20mar2025 00:12:31.428] [Worker-Main-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[20mar2025 00:12:31.454] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20mar2025 00:12:32.243] [Worker-Main-1/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: HELLO FROM CLIENT SETUP
+[20mar2025 00:12:32.243] [Worker-Main-1/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: MINECRAFT NAME >> Dev
+[20mar2025 00:12:32.248] [Worker-Main-1/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture create_shafts:block/granite_axis with size 4x16 limits mip level from 4 to 2
+[20mar2025 00:12:32.516] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[20mar2025 00:12:35.219] [Worker-Main-1/INFO] [PonderIndex/]: Registering Ponder Scenes took 126.1 ms
+[20mar2025 00:12:35.225] [Worker-Main-1/INFO] [PonderIndex/]: Registering Ponder Tags took 5.457 ms
+[20mar2025 00:12:37.675] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[20mar2025 00:12:37.675] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20mar2025 00:12:37.789] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek(R) Audio)
+[20mar2025 00:12:37.790] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[20mar2025 00:12:37.931] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[20mar2025 00:12:37.949] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[20mar2025 00:12:37.956] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20mar2025 00:12:37.956] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20mar2025 00:12:37.957] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20mar2025 00:12:37.964] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20mar2025 00:12:37.972] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[20mar2025 00:12:37.973] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20mar2025 00:12:37.973] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20mar2025 00:12:38.120] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20mar2025 00:12:38.184] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20mar2025 00:12:38.187] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20mar2025 00:12:38.187] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20mar2025 00:12:38.244] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 48,901 ms
+[20mar2025 00:12:38.294] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 51 train hat configurations.
+[20mar2025 00:12:38.514] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[20mar2025 00:12:43.434] [Render thread/INFO] [com.simibubi.create.Create/]: Created 141 recipes which will be injected into the game
+[20mar2025 00:12:43.445] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[20mar2025 00:12:43.502] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[20mar2025 00:12:46.291] [Worker-Main-9/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:mineable/pickaxe as it is missing following references: create_shafts:large_diorite_cogwheel (from main)
+[20mar2025 00:12:46.294] [Worker-Main-9/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:mineable/axe as it is missing following references: create_shafts:large_diorite_cogwheel (from main)
+[20mar2025 00:12:46.823] [Worker-Main-11/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:create_shafts:blocks/large_diorite_cogwheel
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'create_shafts:large_diorite_cogwheel'
+	at net.minecraft.util.GsonHelper.lambda$convertToItem$0(GsonHelper.java:145) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.convertToItem(GsonHelper.java:145) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.getAsItem(GsonHelper.java:153) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:55) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:40) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:151) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:129) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:86) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:74) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:463) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:471) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:463) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:481) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23190%23197!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23190%23197!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$5(LootDataManager.java:55) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[20mar2025 00:12:46.978] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[20mar2025 00:12:47.092] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2389 advancements
+[20mar2025 00:12:48.800] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[20mar2025 00:12:48.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20mar2025 00:12:50.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20mar2025 00:12:52.042] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20mar2025 00:12:52.042] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20mar2025 00:12:52.042] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20mar2025 00:12:52.042] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20mar2025 00:12:52.163] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20mar2025 00:12:52.669] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[20mar2025 00:12:53.170] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[20mar2025 00:12:53.675] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[20mar2025 00:12:53.898] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20mar2025 00:12:53.898] [Server thread/INFO] [github.rudevofficial.create_shafts.Create_Shafts/]: HELLO from server starting
+[20mar2025 00:12:53.900] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3744 ms
+[20mar2025 00:12:54.112] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Creeper['Creeper'/119, l='ServerLevel[New World]', x=190.50, y=-4.00, z=-341.50]
+[20mar2025 00:12:54.143] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[20mar2025 00:12:54.147] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[20mar2025 00:12:54.297] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[20mar2025 00:12:54.507] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create:simple_kinetic @ BlockPos{x=252, y=64, z=-247} state Block{create_shafts:granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
+[20mar2025 00:12:54.514] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create_shafts:granite_cogwheel @ BlockPos{x=246, y=64, z=-244} state Block{create_shafts:large_granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
+[20mar2025 00:12:54.515] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create_shafts:granite_cogwheel @ BlockPos{x=227, y=64, z=-250} state Block{create_shafts:large_granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
+[20mar2025 00:12:54.515] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create_shafts:granite_cogwheel @ BlockPos{x=227, y=64, z=-248} state Block{create_shafts:large_granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
+[20mar2025 00:12:54.990] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[20mar2025 00:12:55.052] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:78a4eb7f] logged in with entity id 183 at (225.69293320615571, 64.0, -247.65420135062638)
+[20mar2025 00:12:55.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[20mar2025 00:12:55.758] [Render thread/INFO] [flywheel/]: Started 6 worker threads
+[20mar2025 00:12:56.370] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 34 advancements
+[20mar2025 00:12:56.991] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create_shafts:granite_cogwheel @ BlockPos{x=227, y=64, z=-250} state Block{create_shafts:large_granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
+[20mar2025 00:12:56.991] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create_shafts:granite_cogwheel @ BlockPos{x=227, y=64, z=-248} state Block{create_shafts:large_granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
+[20mar2025 00:12:56.993] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create_shafts:granite_cogwheel @ BlockPos{x=246, y=64, z=-244} state Block{create_shafts:large_granite_cogwheel}[axis=y,waterlogged=false] invalid for ticking:
+[20mar2025 00:12:59.239] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20mar2025 00:12:59.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20mar2025 00:13:00.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20mar2025 00:13:00.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20mar2025 00:13:27.649] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20mar2025 00:13:27.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20mar2025 00:13:27.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20mar2025 00:13:27.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20mar2025 00:13:28.160] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[20mar2025 00:13:28.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[20mar2025 00:13:28.179] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[20mar2025 00:13:28.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20mar2025 00:13:28.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20mar2025 00:13:28.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20mar2025 00:13:28.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20mar2025 00:13:32.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20mar2025 00:13:32.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20mar2025 00:13:32.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[20mar2025 00:13:32.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20mar2025 00:13:32.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20mar2025 00:13:32.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

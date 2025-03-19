@@ -1,6 +1,6 @@
-﻿{
+{
   "parent": "minecraft:item/generated",
-  "textures" : {
+  "textures": {
     "layer0": "create_shafts:item/granite_alloy"
   }
 }

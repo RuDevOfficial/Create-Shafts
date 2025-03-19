@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "minecraft:block",
   "pools": [
     {
@@ -17,5 +17,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "create_shafts:diorite_shaft"
+  "random_sequence": "create_shafts:blocks/diorite_shaft"
 }

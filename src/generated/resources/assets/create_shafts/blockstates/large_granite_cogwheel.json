@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "create_shafts:block/large_granite_cogwheel",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "create_shafts:block/large_granite_cogwheel"
+    },
+    "axis=z": {
+      "model": "create_shafts:block/large_granite_cogwheel",
+      "x": 90,
+      "y": 180
+    }
+  }
+}

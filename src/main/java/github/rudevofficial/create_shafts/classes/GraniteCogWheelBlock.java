@@ -11,6 +11,14 @@ public class GraniteCogWheelBlock extends CogWheelBlock  {
         super(large, properties);
     }
 
+    public static GraniteCogWheelBlock smallCog(Properties properties) {
+        return new GraniteCogWheelBlock(false, properties);
+    }
+
+    public static GraniteCogWheelBlock largeCog(Properties properties) {
+        return new GraniteCogWheelBlock(true, properties);
+    }
+
     @Override
     public BlockEntityType<? extends KineticBlockEntity> getBlockEntityType() {
         return BlockEntityRegistry.GRANITE_COGWHEEL.get();
