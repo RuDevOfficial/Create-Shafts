@@ -2,6 +2,7 @@ package github.rudevofficial.create_shafts.registry;
 
 import com.tterrag.registrate.util.entry.ItemEntry;
 import github.rudevofficial.create_shafts.CreateShaftsCreativeTabs;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 
 import static com.mojang.text2speech.Narrator.LOGGER;

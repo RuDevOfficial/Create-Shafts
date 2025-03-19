@@ -23,6 +23,8 @@ public class CreateShaftsCreativeTabs {
                         output.accept(ItemRegistry.DIORITE_ALLOY.get()); // Add a block
                         output.accept(BlockRegistry.GRANITE_SHAFT.get().asItem());
                         output.accept(BlockRegistry.DIORITE_SHAFT.get().asItem());
+                        output.accept(BlockRegistry.SMALL_GRANITE_COGWHEEL.get().asItem());
+                        //output.accept(BlockRegistry.ANDESITE_GRANITE_ENCASED_SHAFT.get().asItem());
                     })
                     .build());
 }

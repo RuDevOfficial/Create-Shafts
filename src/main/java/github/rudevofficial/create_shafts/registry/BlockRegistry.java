@@ -1,22 +1,21 @@
 package github.rudevofficial.create_shafts.registry;
 
-import com.simibubi.create.Create;
 import com.simibubi.create.content.kinetics.simpleRelays.BracketedKineticBlockModel;
-import com.simibubi.create.content.kinetics.simpleRelays.ShaftBlock;
+import com.simibubi.create.content.kinetics.simpleRelays.CogWheelBlock;
 import com.simibubi.create.foundation.data.BlockStateGen;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.data.SharedProperties;
-import com.simibubi.create.infrastructure.config.CStress;
 import com.tterrag.registrate.util.entry.BlockEntry;
-import dev.engine_room.flywheel.lib.model.baked.PartialModel;
 import github.rudevofficial.create_shafts.CreateShaftsCreativeTabs;
 import github.rudevofficial.create_shafts.Create_Shafts;
-import github.rudevofficial.create_shafts.blocks.DioriteShaftBlock;
-import github.rudevofficial.create_shafts.blocks.GraniteShaftBlock;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Blocks;
+import github.rudevofficial.create_shafts.classes.DioriteShaftBlock;
+import github.rudevofficial.create_shafts.classes.GraniteCogWheelBlock;
+import github.rudevofficial.create_shafts.classes.GraniteCogWheelBlockItem;
+import github.rudevofficial.create_shafts.classes.GraniteShaftBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.MapColor;
 
+import static com.simibubi.create.foundation.data.TagGen.axeOrPickaxe;
 import static com.simibubi.create.foundation.data.TagGen.pickaxeOnly;
 import static github.rudevofficial.create_shafts.Create_Shafts.REGISTRATE;
 
@@ -46,17 +45,21 @@ public class BlockRegistry {
             .simpleItem()
             .register();
 
-
-    public static final PartialModel GRANITE_SHAFT_MODEL = PartialModel.of(
-            ResourceLocation.fromNamespaceAndPath(Create_Shafts.MODID, "block/granite_shaft")
-    );
-
-    public static final PartialModel DIORITE_SHAFT_MODEL = PartialModel.of(
-            ResourceLocation.fromNamespaceAndPath(Create_Shafts.MODID, "block/diorite_shaft")
-    );
+    public static final BlockEntry<CogWheelBlock> SMALL_GRANITE_COGWHEEL = REGISTRATE.block("granite_cogwheel", GraniteCogWheelBlock::small)
+            .initialProperties(SharedProperties::stone)
+            .properties(p -> p.sound(SoundType.WOOD)
+                    .mapColor(MapColor.COLOR_BROWN))
+            //.transform(CStress.setNoImpact())
+            .transform(axeOrPickaxe())
+            .blockstate(BlockStateGen.axisBlockProvider(false))
+            .onRegister(CreateRegistrate.blockModel(() -> BracketedKineticBlockModel::new))
+            .item(GraniteCogWheelBlockItem::new)
+            .build()
+            .register();
 
 
 
     public static void register() {
+        Create_Shafts.LOGGER.info("REGISTERED THE MODELS");
     }
 }

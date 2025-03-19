@@ -5,7 +5,9 @@ import com.simibubi.create.foundation.data.CreateRegistrate;
 import github.rudevofficial.create_shafts.registry.BlockEntityRegistry;
 import github.rudevofficial.create_shafts.registry.BlockRegistry;
 import github.rudevofficial.create_shafts.registry.ItemRegistry;
+import github.rudevofficial.create_shafts.registry.PartialModelRegistry;
 import net.minecraft.client.Minecraft;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,7 +29,7 @@ public class Create_Shafts {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "create_shafts";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
     // Create a Deferred Register to hold Blocks which will all be registered under the "create_shafts" namespace
     public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(Create_Shafts.MODID);
 
@@ -35,6 +37,7 @@ public class Create_Shafts {
         IEventBus modEventBus = context.getModEventBus();
 
         ItemRegistry.register();
+        PartialModelRegistry.register();
         BlockRegistry.register();
         BlockEntityRegistry.register();
         REGISTRATE.registerEventListeners(modEventBus);
@@ -48,6 +51,15 @@ public class Create_Shafts {
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+    }
+
+    public static ResourceLocation SetResource(String path){
+
+        // New Ver
+        // return ResourceLocation.fromNamespaceAndPath(MODID, path);
+
+        // Deprecated Ver
+        return new ResourceLocation(MODID, path);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
