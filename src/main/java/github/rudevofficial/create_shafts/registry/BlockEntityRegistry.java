@@ -1,7 +1,10 @@
 package github.rudevofficial.create_shafts.registry;
 
+import com.simibubi.create.AllBlocks;
+import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
 import com.simibubi.create.content.kinetics.base.KineticBlockEntityRenderer;
 import com.simibubi.create.content.kinetics.base.ShaftRenderer;
+import com.simibubi.create.content.kinetics.base.SingleAxisRotatingVisual;
 import com.simibubi.create.content.kinetics.simpleRelays.BracketedKineticBlockEntity;
 import com.simibubi.create.content.kinetics.steamEngine.PoweredShaftBlockEntity;
 import com.tterrag.registrate.util.entry.BlockEntityEntry;
@@ -30,21 +33,14 @@ public class BlockEntityRegistry {
     public static final BlockEntityEntry<BracketedKineticBlockEntity> GRANITE_COGWHEEL = REGISTRATE
             .blockEntity("granite_cogwheel", BracketedKineticBlockEntity::new)
             .visual(() -> GraniteCogWheelVisual::create, false)
-            .validBlocks(BlockRegistry.SMALL_GRANITE_COGWHEEL)
-            .renderer(() -> KineticBlockEntityRenderer::new)
-            .register();
-
-    public static final BlockEntityEntry<BracketedKineticBlockEntity> LARGE_GRANITE_COGWHEEL = REGISTRATE
-            .blockEntity("large_granite_cogwheel", BracketedKineticBlockEntity::new)
-            .visual(() -> GraniteCogWheelVisual::create, false)
-            .validBlocks(BlockRegistry.LARGE_GRANITE_COGWHEEL)
+            .validBlocks(BlockRegistry.SMALL_GRANITE_COGWHEEL, BlockRegistry.LARGE_GRANITE_COGWHEEL)
             .renderer(() -> KineticBlockEntityRenderer::new)
             .register();
 
     public static final BlockEntityEntry<BracketedKineticBlockEntity> DIORITE_COGWHEEL = REGISTRATE
             .blockEntity("diorite_cogwheel", BracketedKineticBlockEntity::new)
             .visual(() -> DioriteCogWheelVisual::create, false)
-            .validBlocks(BlockRegistry.SMALL_DIORITE_COGWHEEL)
+            .validBlocks(BlockRegistry.SMALL_DIORITE_COGWHEEL, BlockRegistry.LARGE_DIORITE_COGWHEEL)
             .renderer(() -> KineticBlockEntityRenderer::new)
             .register();
 

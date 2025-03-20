@@ -1,9 +1,14 @@
 package github.rudevofficial.create_shafts.registry;
 
+import com.simibubi.create.AllBlocks;
+import com.simibubi.create.AllSpriteShifts;
+import com.simibubi.create.content.decoration.encasing.EncasingRegistry;
 import com.simibubi.create.content.kinetics.simpleRelays.BracketedKineticBlockModel;
 import com.simibubi.create.content.kinetics.simpleRelays.CogWheelBlock;
 import com.simibubi.create.content.kinetics.simpleRelays.CogwheelBlockItem;
+import com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedShaftBlock;
 import com.simibubi.create.foundation.data.BlockStateGen;
+import com.simibubi.create.foundation.data.BuilderTransformers;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.data.SharedProperties;
 import com.simibubi.create.infrastructure.config.CStress;
@@ -44,17 +49,31 @@ public class BlockRegistry {
             .simpleItem()
             .register();
 
-    public static final BlockEntry<GraniteCogWheelBlock> SMALL_GRANITE_COGWHEEL = REGISTRATE.block("granite_cogwheel", GraniteCogWheelBlock::smallCog)
-            .initialProperties(SharedProperties::stone)
-            .properties(p -> p.sound(SoundType.WOOD)
-                    .mapColor(MapColor.COLOR_BROWN))
-            //.transform(CStress.setNoImpact())
-            .transform(axeOrPickaxe())
-            .blockstate(BlockStateGen.axisBlockProvider(false))
-            .onRegister(CreateRegistrate.blockModel(() -> BracketedKineticBlockModel::new)) // CULPABLE
-            .item(GraniteCogWheelBlockItem::new)
-            .build()
-            .register();
+    public static final BlockEntry<GraniteCogWheelBlock> SMALL_GRANITE_COGWHEEL =
+            REGISTRATE.block("granite_cogwheel", GraniteCogWheelBlock::smallCog)
+                    .initialProperties(SharedProperties::stone)
+                    .properties(p -> p.sound(SoundType.WOOD)
+                            .mapColor(MapColor.COLOR_BROWN))
+                    //.transform(CStress.setNoImpact())
+                    .transform(axeOrPickaxe())
+                    .blockstate(BlockStateGen.axisBlockProvider(false))
+                    .onRegister(CreateRegistrate.blockModel(() -> BracketedKineticBlockModel::new)) // CULPABLE
+                    .item(GraniteCogWheelBlockItem::new)
+                    .build()
+                    .register();
+
+    public static final BlockEntry<GraniteCogWheelBlock> LARGE_GRANITE_COGWHEEL =
+            REGISTRATE.block("large_granite_cogwheel", GraniteCogWheelBlock::largeCog)
+                    .initialProperties(SharedProperties::stone)
+                    .properties(p -> p.sound(SoundType.WOOD)
+                            .mapColor(MapColor.DIRT))
+                    .transform(axeOrPickaxe())
+                    //.transform(CStress.setNoImpact())
+                    .blockstate(BlockStateGen.axisBlockProvider(false))
+                    .onRegister(CreateRegistrate.blockModel(() -> BracketedKineticBlockModel::new))
+                    .item(GraniteCogWheelBlockItem::new)
+                    .build()
+                    .register();
 
     public static final BlockEntry<DioriteCogWheelBlock> SMALL_DIORITE_COGWHEEL = REGISTRATE.block("diorite_cogwheel", DioriteCogWheelBlock::smallCog)
             .initialProperties(SharedProperties::stone)
@@ -68,8 +87,8 @@ public class BlockRegistry {
             .build()
             .register();
 
-    public static final BlockEntry<GraniteCogWheelBlock> LARGE_GRANITE_COGWHEEL =
-            REGISTRATE.block("large_granite_cogwheel", GraniteCogWheelBlock::largeCog)
+    public static final BlockEntry<DioriteCogWheelBlock> LARGE_DIORITE_COGWHEEL =
+            REGISTRATE.block("large_diorite_cogwheel", DioriteCogWheelBlock::largeCog)
                     .initialProperties(SharedProperties::stone)
                     .properties(p -> p.sound(SoundType.WOOD)
                             .mapColor(MapColor.DIRT))
@@ -77,7 +96,7 @@ public class BlockRegistry {
                     //.transform(CStress.setNoImpact())
                     .blockstate(BlockStateGen.axisBlockProvider(false))
                     .onRegister(CreateRegistrate.blockModel(() -> BracketedKineticBlockModel::new))
-                    .item(GraniteCogWheelBlockItem::new)
+                    .item(DioriteCogWheelBlockItem::new)
                     .build()
                     .register();
 

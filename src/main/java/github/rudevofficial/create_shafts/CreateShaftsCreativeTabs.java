@@ -26,7 +26,7 @@ public class CreateShaftsCreativeTabs {
                         output.accept(BlockRegistry.SMALL_GRANITE_COGWHEEL.get().asItem());
                         output.accept(BlockRegistry.LARGE_GRANITE_COGWHEEL.get().asItem());
                         output.accept(BlockRegistry.SMALL_DIORITE_COGWHEEL.get().asItem());
-                        //output.accept(BlockRegistry.ANDESITE_GRANITE_ENCASED_SHAFT.get().asItem());
+                        output.accept(BlockRegistry.LARGE_DIORITE_COGWHEEL.get().asItem());
                     })
                     .build());
 }

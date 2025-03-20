@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
-    "X": {
-      "item": "create:zinc_nugget"
-    },
-    "O": {
+    "A": {
       "item": "minecraft:diorite"
+    },
+    "B": {
+      "tag": "forge:nuggets/iron"
     }
   },
   "pattern": [
-    "XO",
-    "OX"
+    "BA",
+    "AB"
   ],
   "result": {
-    "item": "create_shafts:diorite_alloy",
-    "count": 1
+    "item": "create_shafts:diorite_alloy"
   },
-  "show_notification": false
+  "show_notification": true
 }

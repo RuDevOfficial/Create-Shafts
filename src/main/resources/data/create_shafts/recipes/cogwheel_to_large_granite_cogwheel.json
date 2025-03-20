@@ -1,0 +1,19 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "create_shafts:granite_cogwheel"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "SP"
+  ],
+  "result": {
+    "item": "create_shafts:large_granite_cogwheel",
+    "count": 1
+  },
+  "show_notification": false
+}

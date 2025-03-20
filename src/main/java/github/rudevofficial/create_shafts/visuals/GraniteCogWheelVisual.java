@@ -1,5 +1,6 @@
 package github.rudevofficial.create_shafts.visuals;
 
+import com.simibubi.create.AllBlockEntityTypes;
 import com.simibubi.create.AllPartialModels;
 import com.simibubi.create.content.kinetics.base.KineticBlockEntityRenderer;
 import com.simibubi.create.content.kinetics.base.RotatingInstance;
@@ -27,8 +28,10 @@ public class GraniteCogWheelVisual {
         } else {
             Model model;
 
-            if (BlockRegistry.SMALL_GRANITE_COGWHEEL.is(blockEntity.getBlockState().getBlock())) { model = Models.partial(PartialModelRegistry.GRANITE_COGWHEEL_MODEL); }
-            else { model = Models.partial(PartialModelRegistry.GRANITE_SHAFT_MODEL); }
+            if (BlockRegistry.SMALL_GRANITE_COGWHEEL.is(blockEntity.getBlockState().getBlock()))
+            { model = Models.partial(PartialModelRegistry.GRANITE_COGWHEEL_MODEL); }
+            else
+            { model = Models.partial(PartialModelRegistry.GRANITE_SHAFT_MODEL); }
 
             return new SingleAxisRotatingVisual<>(context, blockEntity, partialTick, model);
         }
@@ -42,11 +45,12 @@ public class GraniteCogWheelVisual {
         protected final RotatingInstance additionalShaft;
 
         private LargeCogVisual(VisualizationContext context, BracketedKineticBlockEntity blockEntity, float partialTick) {
-            super(context, blockEntity, partialTick, Models.partial(PartialModelRegistry.LARGE_GRANITE_COGWHEEL_MODEL));
+            super(context, blockEntity, partialTick, Models.partial(AllPartialModels.SHAFTLESS_LARGE_COGWHEEL));
 
             Direction.Axis axis = KineticBlockEntityRenderer.getRotationAxisOf(blockEntity);
 
-            additionalShaft = instancerProvider().instancer(AllInstanceTypes.ROTATING, Models.partial(PartialModelRegistry.GRANITE_SHAFT_MODEL))
+            additionalShaft = instancerProvider().instancer(AllInstanceTypes.ROTATING,
+                            Models.partial(PartialModelRegistry.GRANITE_SHAFT_MODEL))
                     .createInstance();
 
             additionalShaft.rotateToFace(axis)

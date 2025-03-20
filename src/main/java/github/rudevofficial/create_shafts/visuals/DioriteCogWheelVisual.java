@@ -1,5 +1,6 @@
 package github.rudevofficial.create_shafts.visuals;
 
+import com.simibubi.create.AllPartialModels;
 import com.simibubi.create.content.kinetics.base.KineticBlockEntityRenderer;
 import com.simibubi.create.content.kinetics.base.RotatingInstance;
 import com.simibubi.create.content.kinetics.base.SingleAxisRotatingVisual;
@@ -41,7 +42,7 @@ public class DioriteCogWheelVisual {
         protected final RotatingInstance additionalShaft;
 
         private LargeCogVisual(VisualizationContext context, BracketedKineticBlockEntity blockEntity, float partialTick) {
-            super(context, blockEntity, partialTick, Models.partial(PartialModelRegistry.LARGE_DIORITE_COGWHEEL_MODEL));
+            super(context, blockEntity, partialTick, Models.partial(AllPartialModels.SHAFTLESS_LARGE_COGWHEEL));
 
             Direction.Axis axis = KineticBlockEntityRenderer.getRotationAxisOf(blockEntity);
 
