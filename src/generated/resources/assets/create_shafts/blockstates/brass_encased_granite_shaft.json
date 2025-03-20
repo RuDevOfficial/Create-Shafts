@@ -1,0 +1,20 @@
+﻿{
+  "variants": {
+    "axis=x": {
+      "model": "create_shafts:block/encased_granite_shaft/block_brass",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "create_shafts:block/encased_granite_shaft/block_brass",
+      "uvlock": true
+    },
+    "axis=z": {
+      "model": "create_shafts:block/encased_granite_shaft/block_brass",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    }
+  }
+}

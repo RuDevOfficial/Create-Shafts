@@ -1,0 +1,7 @@
+{
+	"parent": "create_shafts:block/encased_granite_shaft/item",
+	"textures": {
+		"casing": "create:block/andesite_casing",
+		"opening": "create:block/gearbox"
+	}
+}

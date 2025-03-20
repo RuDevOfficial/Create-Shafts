@@ -1,6 +1,5 @@
 package github.rudevofficial.create_shafts.visuals;
 
-import com.simibubi.create.AllBlockEntityTypes;
 import com.simibubi.create.AllPartialModels;
 import com.simibubi.create.content.kinetics.base.KineticBlockEntityRenderer;
 import com.simibubi.create.content.kinetics.base.RotatingInstance;
@@ -28,7 +27,7 @@ public class GraniteCogWheelVisual {
         } else {
             Model model;
 
-            if (BlockRegistry.SMALL_GRANITE_COGWHEEL.is(blockEntity.getBlockState().getBlock()))
+            if (BlockRegistry.GRANITE_COGWHEEL.is(blockEntity.getBlockState().getBlock()))
             { model = Models.partial(PartialModelRegistry.GRANITE_COGWHEEL_MODEL); }
             else
             { model = Models.partial(PartialModelRegistry.GRANITE_SHAFT_MODEL); }

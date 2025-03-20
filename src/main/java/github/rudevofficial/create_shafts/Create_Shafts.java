@@ -38,8 +38,8 @@ public class Create_Shafts {
 
         ItemRegistry.register();
         PartialModelRegistry.register();
-        BlockRegistry.register();
         BlockEntityRegistry.register();
+        BlockRegistry.register();
         REGISTRATE.registerEventListeners(modEventBus);
         CreateShaftsCreativeTabs.CREATIVE_TABS.register(modEventBus);
 
