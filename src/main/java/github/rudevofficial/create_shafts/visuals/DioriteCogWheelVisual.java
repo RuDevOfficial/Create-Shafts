@@ -27,7 +27,7 @@ public class DioriteCogWheelVisual {
         } else {
             Model model;
 
-            if (BlockRegistry.SMALL_DIORITE_COGWHEEL.is(blockEntity.getBlockState().getBlock())) { model = Models.partial(PartialModelRegistry.DIORITE_COGWHEEL_MODEL); }
+            if (BlockRegistry.DIORITE_COGWHEEL.is(blockEntity.getBlockState().getBlock())) { model = Models.partial(PartialModelRegistry.DIORITE_COGWHEEL_MODEL); }
             else { model = Models.partial(PartialModelRegistry.DIORITE_SHAFT_MODEL); }
 
             return new SingleAxisRotatingVisual<>(context, blockEntity, partialTick, model);

@@ -92,31 +92,6 @@ public class BlockRegistry {
 
     //endregion
 
-    //region Encased Cogwheels
-
-    public static final BlockEntry<EncasedGraniteCogwheelBlock> ANDESITE_ENCASED_GRANITE_COGWHEEL = REGISTRATE
-            .block("andesite_encased_granite_cogwheel", p -> new EncasedGraniteCogwheelBlock(p, false, AllBlocks.ANDESITE_CASING::get))
-            .properties(p -> p.mapColor(MapColor.PODZOL))
-            .transform(CustomBuilderTransformers.encasedGraniteCogwheel("andesite", () -> AllSpriteShifts.ANDESITE_CASING))
-            .transform(EncasingRegistry.addVariantTo(BlockRegistry.GRANITE_COGWHEEL))
-            .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(AllSpriteShifts.ANDESITE_CASING,
-                    Couple.create(AllSpriteShifts.ANDESITE_ENCASED_COGWHEEL_SIDE,
-                            AllSpriteShifts.ANDESITE_ENCASED_COGWHEEL_OTHERSIDE))))
-            .transform(axeOrPickaxe())
-            .register();
-
-    public static final BlockEntry<EncasedGraniteCogwheelBlock> BRASS_ENCASED_GRANITE_COGWHEEL =
-            REGISTRATE.block("brass_encased_granite_cogwheel", p -> new EncasedGraniteCogwheelBlock(p, false, AllBlocks.BRASS_CASING::get))
-                    .properties(p -> p.mapColor(MapColor.TERRACOTTA_BROWN))
-                    .transform(CustomBuilderTransformers.encasedGraniteCogwheel("brass", () -> AllSpriteShifts.BRASS_CASING))
-                    .transform(EncasingRegistry.addVariantTo(BlockRegistry.GRANITE_COGWHEEL))
-                    .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(AllSpriteShifts.BRASS_CASING,
-                            Couple.create(AllSpriteShifts.BRASS_ENCASED_COGWHEEL_SIDE,
-                                    AllSpriteShifts.BRASS_ENCASED_COGWHEEL_OTHERSIDE))))
-                    .transform(axeOrPickaxe())
-                    .register();
-    //endregion
-
     //region Cogwheels
 
     public static final BlockEntry<GraniteCogWheelBlock> GRANITE_COGWHEEL =
@@ -145,7 +120,7 @@ public class BlockRegistry {
                     .build()
                     .register();
 
-    public static final BlockEntry<DioriteCogWheelBlock> SMALL_DIORITE_COGWHEEL = REGISTRATE.block("diorite_cogwheel", DioriteCogWheelBlock::smallCog)
+    public static final BlockEntry<DioriteCogWheelBlock> DIORITE_COGWHEEL = REGISTRATE.block("diorite_cogwheel", DioriteCogWheelBlock::smallCog)
             .initialProperties(SharedProperties::stone)
             .properties(p -> p.sound(SoundType.WOOD)
                     .mapColor(MapColor.COLOR_BROWN))
@@ -171,6 +146,100 @@ public class BlockRegistry {
                     .register();
 
     //endregion
+
+
+    //region Encased Cogwheels
+
+    public static final BlockEntry<EncasedGraniteCogwheelBlock> ANDESITE_ENCASED_GRANITE_COGWHEEL = REGISTRATE
+            .block("andesite_encased_granite_cogwheel", p -> new EncasedGraniteCogwheelBlock(p, false, AllBlocks.ANDESITE_CASING::get))
+            .properties(p -> p.mapColor(MapColor.PODZOL))
+            .transform(CustomBuilderTransformers.encasedGraniteCogwheel("andesite", () -> AllSpriteShifts.ANDESITE_CASING))
+            .transform(EncasingRegistry.addVariantTo(BlockRegistry.GRANITE_COGWHEEL))
+            .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(AllSpriteShifts.ANDESITE_CASING,
+                    Couple.create(AllSpriteShifts.ANDESITE_ENCASED_COGWHEEL_SIDE,
+                            AllSpriteShifts.ANDESITE_ENCASED_COGWHEEL_OTHERSIDE))))
+            .transform(axeOrPickaxe())
+            .register();
+
+    public static final BlockEntry<EncasedGraniteCogwheelBlock> BRASS_ENCASED_GRANITE_COGWHEEL =
+            REGISTRATE.block("brass_encased_granite_cogwheel", p -> new EncasedGraniteCogwheelBlock(p, false, AllBlocks.BRASS_CASING::get))
+                    .properties(p -> p.mapColor(MapColor.TERRACOTTA_BROWN))
+                    .transform(CustomBuilderTransformers.encasedGraniteCogwheel("brass", () -> AllSpriteShifts.BRASS_CASING))
+                    .transform(EncasingRegistry.addVariantTo(BlockRegistry.GRANITE_COGWHEEL))
+                    .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(AllSpriteShifts.BRASS_CASING,
+                            Couple.create(AllSpriteShifts.BRASS_ENCASED_COGWHEEL_SIDE,
+                                    AllSpriteShifts.BRASS_ENCASED_COGWHEEL_OTHERSIDE))))
+                    .transform(axeOrPickaxe())
+                    .register();
+
+    public static final BlockEntry<EncasedGraniteCogwheelBlock> ANDESITE_ENCASED_LARGE_GRANITE_COGWHEEL = REGISTRATE
+            .block("andesite_encased_large_granite_cogwheel", p -> new EncasedGraniteCogwheelBlock(p, true, AllBlocks.ANDESITE_CASING::get))
+            .properties(p -> p.mapColor(MapColor.PODZOL))
+            .transform(CustomBuilderTransformers.encasedGraniteCogwheel("andesite", () -> AllSpriteShifts.ANDESITE_CASING))
+            .transform(EncasingRegistry.addVariantTo(BlockRegistry.LARGE_GRANITE_COGWHEEL))
+            .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(AllSpriteShifts.ANDESITE_CASING,
+                    Couple.create(AllSpriteShifts.ANDESITE_ENCASED_COGWHEEL_SIDE,
+                            AllSpriteShifts.ANDESITE_ENCASED_COGWHEEL_OTHERSIDE))))
+            .transform(axeOrPickaxe())
+            .register();
+
+    public static final BlockEntry<EncasedGraniteCogwheelBlock> BRASS_ENCASED_LARGE_GRANITE_COGWHEEL =
+            REGISTRATE.block("brass_encased_large_granite_cogwheel", p -> new EncasedGraniteCogwheelBlock(p, true, AllBlocks.BRASS_CASING::get))
+                    .properties(p -> p.mapColor(MapColor.TERRACOTTA_BROWN))
+                    .transform(CustomBuilderTransformers.encasedGraniteCogwheel("brass", () -> AllSpriteShifts.BRASS_CASING))
+                    .transform(EncasingRegistry.addVariantTo(BlockRegistry.LARGE_GRANITE_COGWHEEL))
+                    .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(AllSpriteShifts.BRASS_CASING,
+                            Couple.create(AllSpriteShifts.BRASS_ENCASED_COGWHEEL_SIDE,
+                                    AllSpriteShifts.BRASS_ENCASED_COGWHEEL_OTHERSIDE))))
+                    .transform(axeOrPickaxe())
+                    .register();
+
+    public static final BlockEntry<EncasedDioriteCogwheelBlock> ANDESITE_ENCASED_DIORITE_COGWHEEL = REGISTRATE
+            .block("andesite_encased_diorite_cogwheel", p -> new EncasedDioriteCogwheelBlock(p, false, AllBlocks.ANDESITE_CASING::get))
+            .properties(p -> p.mapColor(MapColor.PODZOL))
+            .transform(CustomBuilderTransformers.encasedDioriteCogwheel("andesite", () -> AllSpriteShifts.ANDESITE_CASING))
+            .transform(EncasingRegistry.addVariantTo(BlockRegistry.DIORITE_COGWHEEL))
+            .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(AllSpriteShifts.ANDESITE_CASING,
+                    Couple.create(AllSpriteShifts.ANDESITE_ENCASED_COGWHEEL_SIDE,
+                            AllSpriteShifts.ANDESITE_ENCASED_COGWHEEL_OTHERSIDE))))
+            .transform(axeOrPickaxe())
+            .register();
+
+    public static final BlockEntry<EncasedDioriteCogwheelBlock> BRASS_ENCASED_DIORITE_COGWHEEL =
+            REGISTRATE.block("brass_encased_diorite_cogwheel", p -> new EncasedDioriteCogwheelBlock(p, false, AllBlocks.BRASS_CASING::get))
+                    .properties(p -> p.mapColor(MapColor.TERRACOTTA_BROWN))
+                    .transform(CustomBuilderTransformers.encasedDioriteCogwheel("brass", () -> AllSpriteShifts.BRASS_CASING))
+                    .transform(EncasingRegistry.addVariantTo(BlockRegistry.DIORITE_COGWHEEL))
+                    .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(AllSpriteShifts.BRASS_CASING,
+                            Couple.create(AllSpriteShifts.BRASS_ENCASED_COGWHEEL_SIDE,
+                                    AllSpriteShifts.BRASS_ENCASED_COGWHEEL_OTHERSIDE))))
+                    .transform(axeOrPickaxe())
+                    .register();
+
+    public static final BlockEntry<EncasedDioriteCogwheelBlock> ANDESITE_ENCASED_LARGE_DIORITE_COGWHEEL = REGISTRATE
+            .block("andesite_encased_large_diorite_cogwheel", p -> new EncasedDioriteCogwheelBlock(p, true, AllBlocks.ANDESITE_CASING::get))
+            .properties(p -> p.mapColor(MapColor.PODZOL))
+            .transform(CustomBuilderTransformers.encasedDioriteCogwheel("andesite", () -> AllSpriteShifts.ANDESITE_CASING))
+            .transform(EncasingRegistry.addVariantTo(BlockRegistry.LARGE_DIORITE_COGWHEEL))
+            .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(AllSpriteShifts.ANDESITE_CASING,
+                    Couple.create(AllSpriteShifts.ANDESITE_ENCASED_COGWHEEL_SIDE,
+                            AllSpriteShifts.ANDESITE_ENCASED_COGWHEEL_OTHERSIDE))))
+            .transform(axeOrPickaxe())
+            .register();
+
+    public static final BlockEntry<EncasedDioriteCogwheelBlock> BRASS_ENCASED_LARGE_DIORITE_COGWHEEL =
+            REGISTRATE.block("brass_encased_large_diorite_cogwheel", p -> new EncasedDioriteCogwheelBlock(p, true, AllBlocks.BRASS_CASING::get))
+                    .properties(p -> p.mapColor(MapColor.TERRACOTTA_BROWN))
+                    .transform(CustomBuilderTransformers.encasedDioriteCogwheel("brass", () -> AllSpriteShifts.BRASS_CASING))
+                    .transform(EncasingRegistry.addVariantTo(BlockRegistry.LARGE_DIORITE_COGWHEEL))
+                    .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(AllSpriteShifts.BRASS_CASING,
+                            Couple.create(AllSpriteShifts.BRASS_ENCASED_COGWHEEL_SIDE,
+                                    AllSpriteShifts.BRASS_ENCASED_COGWHEEL_OTHERSIDE))))
+                    .transform(axeOrPickaxe())
+                    .register();
+
+    //endregion
+
 
     public static void register() {
         Create_Shafts.LOGGER.info("REGISTERED THE MODELS");
