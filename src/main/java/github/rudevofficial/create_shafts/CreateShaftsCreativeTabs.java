@@ -17,10 +17,10 @@ public class CreateShaftsCreativeTabs {
     public static final RegistryObject<CreativeModeTab> CREATIVE_TAB =
             CREATIVE_TABS.register("create_shafts_tab", () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.create_shafts_tab")) // Name of the creative tab
-                    .icon(() -> new ItemStack(ItemRegistry.GRANITE_ALLOY.get())) // The icon for the tab
+                    .icon(() -> new ItemStack(BlockRegistry.GRANITE_SHAFT.get().asItem())) // The icon for the tab
                     .displayItems((parameters, output) -> {
-                        output.accept(ItemRegistry.GRANITE_ALLOY.get()); // Add an item
-                        output.accept(ItemRegistry.DIORITE_ALLOY.get()); // Add a block
+                        output.accept(ItemRegistry.GRANITE_ALLOY.get());
+                        output.accept(ItemRegistry.DIORITE_ALLOY.get());
                         output.accept(BlockRegistry.GRANITE_SHAFT.get().asItem());
                         output.accept(BlockRegistry.DIORITE_SHAFT.get().asItem());
                         output.accept(BlockRegistry.GRANITE_COGWHEEL.get().asItem());

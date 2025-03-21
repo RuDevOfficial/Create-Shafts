@@ -3,30 +3,32 @@
 
 # Create Shafts
 
-Addon to the create mod by RuDevOfficial.
+Addon to Create 6.0.3 by RuDevOfficial.
+
+Adds both Granite and Diorite alloys, enabling you to create shafts and cogs of that variety!
+The crafting and mixing recipies are the same as the Andesite Alloy and Shaft.
 
 # Download
 
-Todo
+[Modrinth](https://modrinth.com/mod/create-shafts)
 
-# About
-
-Create Shafts is a simple mod that adds both Granite and Diorite alloys, enabling you to create shafts of that variety!
-The crafting and mixing recipies are the same as the Andesite Alloy.
+CurseForge - Soon
 
 # Content
-![Creative Tab](https://i.imgur.com/O4tzyOs.png)
+![Creative Tab](https://i.imgur.com/69qUlKf.png)
 
-- Diorite Alloy
 - Granite Alloy
-- Diorite Shaft
+- Diorite Alloy
 - Granite Shaft
+- Diorite Shaft
+- Granite Cogwheel
+- Large Granite Cogwheel
+- Diorite Cogwheel
+- Large Diorite Cogwheel
 
 # Credits
 
-Granite & Diorite Alloys and Shafts textures by **SmallBlueSlime** on [Reddit](https://www.reddit.com/user/SmallBlueSlime/).
-
-
+Granite & Diorite Alloys textures by **SmallBlueSlime** on [Reddit](https://www.reddit.com/user/SmallBlueSlime/).
 
 # License
 

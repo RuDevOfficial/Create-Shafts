@@ -1,0 +1,16 @@
+﻿{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "item": "create_shaft:diorite_shaft"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_shafts:diorite_cogwheel"
+    }
+  ]
+}

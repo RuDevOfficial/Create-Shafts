@@ -1,0 +1,24 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "S": {
+      "tag": "forge:stone"
+    },
+    "T": {
+      "tag": "create_shafts:shafts"
+    }
+  },
+  "pattern": [
+    "P",
+    "S",
+    "T"
+  ],
+  "result": {
+    "item": "create:windmill_bearing",
+    "count": 1
+  },
+  "show_notification": false
+}

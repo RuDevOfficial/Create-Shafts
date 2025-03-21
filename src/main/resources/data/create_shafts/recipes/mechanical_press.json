@@ -1,0 +1,24 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "tag": "create_shafts:shafts"
+    },
+    "A": {
+      "item": "create:andesite_casing"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "pattern": [
+    "S",
+    "A",
+    "I"
+  ],
+  "result": {
+    "item": "create:mechanical_press",
+    "count": 1
+  },
+  "show_notification": false
+}

@@ -5,10 +5,9 @@ import com.simibubi.create.content.kinetics.base.KineticBlockEntityRenderer;
 import com.simibubi.create.content.kinetics.base.ShaftRenderer;
 import com.simibubi.create.content.kinetics.simpleRelays.BracketedKineticBlockEntity;
 import com.simibubi.create.content.kinetics.simpleRelays.SimpleKineticBlockEntity;
-import com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedCogRenderer;
-import com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedCogVisual;
 import com.simibubi.create.content.kinetics.steamEngine.PoweredShaftBlockEntity;
 import com.tterrag.registrate.util.entry.BlockEntityEntry;
+import github.rudevofficial.create_shafts.renderers.CustomEncasedCogRenderer;
 import github.rudevofficial.create_shafts.visuals.*;
 
 import static github.rudevofficial.create_shafts.Create_Shafts.REGISTRATE;
@@ -73,43 +72,45 @@ public class BlockEntityRegistry {
 
     public static final BlockEntityEntry<SimpleKineticBlockEntity> ENCASED_GRANITE_COGWHEEL = REGISTRATE
             .blockEntity("encased_granite_cogwheel", SimpleKineticBlockEntity::new)
-            .visual(() -> EncasedCogVisual::small, false)
+            .visual(() -> CustomEncasedCogVisual::smallG, false)
             .validBlocks(
                     BlockRegistry.ANDESITE_ENCASED_GRANITE_COGWHEEL,
                     BlockRegistry.BRASS_ENCASED_GRANITE_COGWHEEL)
-            .renderer(() -> EncasedCogRenderer::small)
+            .renderer(() -> CustomEncasedCogRenderer::smallG)
             .register();
 
 
     public static final BlockEntityEntry<SimpleKineticBlockEntity> ENCASED_LARGE_GRANITE_COGWHEEL = REGISTRATE
             .blockEntity("encased_large_granite_cogwheel", SimpleKineticBlockEntity::new)
-            .visual(() -> EncasedCogVisual::large, false)
+            .visual(() -> CustomEncasedCogVisual::largeG, false)
             .validBlocks(
                     BlockRegistry.ANDESITE_ENCASED_LARGE_GRANITE_COGWHEEL,
                     BlockRegistry.BRASS_ENCASED_LARGE_GRANITE_COGWHEEL)
-            .renderer(() -> EncasedCogRenderer::large)
+            .renderer(() -> CustomEncasedCogRenderer::largeG)
             .register();
 
     public static final BlockEntityEntry<SimpleKineticBlockEntity> ENCASED_DIORITE_COGWHEEL = REGISTRATE
             .blockEntity("encased_diorite_cogwheel", SimpleKineticBlockEntity::new)
-            .visual(() -> EncasedCogVisual::small, false)
+            .visual(() -> CustomEncasedCogVisual::smallD, false)
             .validBlocks(
                     BlockRegistry.ANDESITE_ENCASED_DIORITE_COGWHEEL,
                     BlockRegistry.BRASS_ENCASED_DIORITE_COGWHEEL)
-            .renderer(() -> EncasedCogRenderer::small)
+            .renderer(() -> CustomEncasedCogRenderer::smallD)
             .register();
 
 
     public static final BlockEntityEntry<SimpleKineticBlockEntity> ENCASED_LARGE_DIORITE_COGWHEEL = REGISTRATE
             .blockEntity("encased_large_diorite_cogwheel", SimpleKineticBlockEntity::new)
-            .visual(() -> EncasedCogVisual::large, false)
+            .visual(() -> CustomEncasedCogVisual::largeD, false)
             .validBlocks(
                     BlockRegistry.ANDESITE_ENCASED_LARGE_DIORITE_COGWHEEL,
                     BlockRegistry.BRASS_ENCASED_LARGE_DIORITE_COGWHEEL)
-            .renderer(() -> EncasedCogRenderer::large)
+            .renderer(() -> CustomEncasedCogRenderer::largeD)
             .register();
 
     //endregion
+
+
 
     public static void register() {}
 }

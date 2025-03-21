@@ -1,0 +1,27 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "create_shafts:alloys"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/copper"
+    },
+    "G": {
+      "tag": "create_shafts:shafts"
+    },
+    "P": {
+      "tag": "forge:ingots/copper"
+    }
+  },
+  "pattern": [
+    "AGA",
+    "PBP",
+    " P "
+  ],
+  "result": {
+    "item": "create:copper_backtank"
+  },
+  "show_notification": true
+}

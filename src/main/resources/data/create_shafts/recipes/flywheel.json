@@ -1,0 +1,21 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "tag": "create_shafts:shafts"
+    },
+    "P": {
+      "item": "create:brass_ingot"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PSP",
+    "PPP"
+  ],
+  "result": {
+    "item": "create:flywheel",
+    "count": 1
+  },
+  "show_notification": false
+}

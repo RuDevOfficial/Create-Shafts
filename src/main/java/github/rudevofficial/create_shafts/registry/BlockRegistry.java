@@ -147,7 +147,6 @@ public class BlockRegistry {
 
     //endregion
 
-
     //region Encased Cogwheels
 
     public static final BlockEntry<EncasedGraniteCogwheelBlock> ANDESITE_ENCASED_GRANITE_COGWHEEL = REGISTRATE
