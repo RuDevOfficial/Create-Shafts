@@ -11,8 +11,7 @@ The crafting and mixing recipies are the same as the Andesite Alloy and Shaft.
 # Download
 
 [Modrinth](https://modrinth.com/mod/create-shafts)
-
-CurseForge - Soon
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-shafts)
 
 # Content
 ![Creative Tab](https://i.imgur.com/69qUlKf.png)
